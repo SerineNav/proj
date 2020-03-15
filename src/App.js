@@ -17,9 +17,9 @@ export class App extends Component {
     posts: []
   };
   componentDidMount() {
-    const {id}=
+    
     axios
-      .get(`https://jsonplaceholder.typicode.com/posts/${id}?_limit=10`)
+      .get(`https://jsonplaceholder.typicode.com/posts/?_limit=10`)
       .then(res => {
         const posts = res.data;
         console.log(this.setState({posts}))})
