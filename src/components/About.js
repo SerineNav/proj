@@ -1,11 +1,9 @@
-import React from 'react'
-import img1 from "./bt.jpg";
+import React from "react";
+
 function About() {
-    return (
-        <div>
-            <img src={img1} alt="butterfly" />
-        </div>
-    )
+  return <div>
+      
+  </div>;
 }
 
-export default About
+export default About;
